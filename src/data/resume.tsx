@@ -76,7 +76,7 @@ export const DATA = {
       badges: [],
       location: "Hybrid, Bengaluru",
       title: "Head of Growth and Partnerships",
-      logoUrl: "/TenacityLogo.jpg",
+      logoUrl: `${baseUrl}/TenacityLogo.jpg`,
       start: "July 2023",
       end: "Present",
       description:
@@ -89,7 +89,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Community Associate and Reginol Lead",
-      logoUrl: "/DevsDungeon.png",
+      logoUrl: `${baseUrl}/DevsDungeon.png`,
       start: "March 2023",
       end: "December 2023",
       description:
@@ -100,7 +100,7 @@ export const DATA = {
     {
       school: "RV University",
       degree: "Bachelors in Computer Science",
-      logoUrl: "/rvuniversity.png",
+      logoUrl: `${baseUrl}/rvuniversity.png`,
       start: "2023",
       end: "2027",
     },
