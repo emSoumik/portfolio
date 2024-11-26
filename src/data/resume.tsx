@@ -12,7 +12,7 @@ export const DATA = {
     "21 👨‍💻 • Growth Head @Tenacity | Community @Devs-Dungeon | Web3 | Front-end Developer | Opensource | Tech 👨‍🎓",
   summary:
     "I’m currently an undergrad CS Student (Class of 2027), where I merge curiosity with code. When I’m not debugging code, you’ll find me building bridges between people and opportunities as the Head of Community and Partnerships at Tenacity. I thrive for open source &empowering communities. I believe that great things happen when people come together—and I strive to make that magic happen.",
-  avatarUrl: "/me.jpg",
+  avatarUrl: "./me.jpg",
   skills: [
     "React",
     "Next.js",
