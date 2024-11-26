@@ -28,7 +28,7 @@ export const DATA = {
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     {
-      href: "https://www.notion.so/your-notion-blog-url",
+      href: "https://bold-finch-ff4.notion.site/Computer-Science-Learning-Resources-ed2a8704ba2747c68935f47ec1bd348d?pvs=4",
       icon: NotionLogoIcon,
       label: "Notion",
     },
@@ -97,8 +97,8 @@ export const DATA = {
   education: [
     {
       school: "RV University",
-      degree: "Bachelor of Science in Computer Science",
-      logoUrl: "/buildspace.jpg",
+      degree: "Bachelors in Computer Science",
+      logoUrl: "/rvuniversity.png",
       start: "2023",
       end: "2027",
     },
@@ -110,7 +110,7 @@ export const DATA = {
       dates: "Nov 2024",
       active: true,
       description:
-        "SafeKey Wallet is a sleek and intuitive web application designed for effortlessly generating and managing Ethereum and Solana wallets. With features like seed phrase generation and wallet recovery, it ensures your crypto assets are secure and easily accessible. Built primarily with TypeScript, along with CSS and JavaScript, SafeKey Wallet combines robust functionality with a seamless user experience.",
+        "SafeKey Wallet is a sleek and intuitive web application designed for effortlessly generating and managing Ethereum and Solana wallets. With features like seed phrase generation and wallet recovery, it ensures your crypto assets are secure and easily accessible.",
       technologies: [
         "Next.js",
         "Typescript",
