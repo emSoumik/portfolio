@@ -17,7 +17,6 @@ A modern, responsive portfolio website built with Next.js 14, React, TypeScript,
   - TailwindCSS
   - Framer Motion
   - Magic UI
-- Integrated blog functionality
 - Fully responsive design
 - Optimized for Next.js and Vercel deployment
 - Dark/Light mode support
