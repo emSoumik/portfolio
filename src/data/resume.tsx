@@ -2,6 +2,8 @@ import { Icons } from "@/components/icons";
 import { NotionLogoIcon } from "@radix-ui/react-icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
+const baseUrl = process.env.NODE_ENV === 'production' ? '/portfolio' : '';
+
 export const DATA = {
   name: "Soumik Halder",
   initials: "SH",
@@ -12,7 +14,7 @@ export const DATA = {
     "21 👨‍💻 • Growth Head @Tenacity | Community @Devs-Dungeon | Web3 | Front-end Developer | Opensource | Tech 👨‍🎓",
   summary:
     "I’m currently an undergrad CS Student (Class of 2027), where I merge curiosity with code. When I’m not debugging code, you’ll find me building bridges between people and opportunities as the Head of Community and Partnerships at Tenacity. I thrive for open source &empowering communities. I believe that great things happen when people come together—and I strive to make that magic happen.",
-  avatarUrl: "./me.jpg",
+  avatarUrl: `${baseUrl}/me.jpg`,
   skills: [
     "React",
     "Next.js",
@@ -133,7 +135,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/SafekeyWalletIntro.mp4",
+      video: `${baseUrl}/SafekeyWalletIntro.mp4`,
     },
   ],
 } as const;
